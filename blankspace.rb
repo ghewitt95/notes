@@ -1,9 +1,9 @@
 
-
 x = "Test"
 y = "String"
 
 puts "Success!" if x + y == "TestString"
+
 
 a = 2 + 3
 b = 4 + 1
@@ -15,3 +15,7 @@ j = 10 + 20
 h = 5 + 5
 
 puts "Correct" if g + j == 50
+
+puts "x" > "y"
+
+puts "y" > "x"
