@@ -1,13 +1,6 @@
-x = "cat"
 
-puts "The #{x} in the hat"
+"The car costs $1000 and the cat costs $10".scan (/\d+/) do |x|
+  puts x
+end
 
-my_string = "It's a #{"bad " * 5}world"
-
-puts my_string
-
-puts "foobar i want to go to the bar".gsub('bar', 'foo')
-
-y = "This is a test"
-
-puts y.sub(/^../, 'Hello')
+"This is a test".scan (/[a-m]/) {|x| puts x} 
