@@ -1,6 +1,7 @@
-
-"The car costs $1000 and the cat costs $10".scan (/\d+/) do |x|
-  puts x
+class Person
+    attr_accessor :first_name
 end
 
-"This is a test".scan (/[a-m]/) {|x| puts x} 
+rb = Person.new
+
+pp rb.last_name
